@@ -1,0 +1,9 @@
+.container {
+    background-color: hsl(217, 54%, 11%);
+    max-width: 1440px;
+    min-height: 800px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}

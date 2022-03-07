@@ -1,0 +1,72 @@
+.card {
+    max-width: 325px;
+    max-height: flex;
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+    padding-bottom: 30px;
+}
+
+.cube {
+    max-width: 350px;
+    height: 325px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.cube img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.under {
+    margin-bottom: 25px;
+    background-color: hsla(178, 100%, 50%, 0.452);
+    border-radius: 15px;
+    width: 325px;
+    height: 325px;
+    transform: translateY(-101%);
+    transition: 0.5s;
+    opacity: 0%;
+}
+
+.under:hover {
+    transition: 0.5s;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.viewer {
+    max-width: 55px;    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.txt {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: Outfit, sans-serif;  
+    font-weight: 300;  
+    color: hsl(215, 51%, 70%);
+}
+
+.moneyTime {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    border-color: hsl(215, 51%, 70%);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+

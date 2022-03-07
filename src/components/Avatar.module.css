@@ -1,0 +1,29 @@
+.person {    
+    display: inline-flex;
+    align-content: center;
+}
+
+.person img {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    max-width: 35px;
+    margin-right: 15px;
+}
+
+.personTxt {
+    float: right;
+    margin: auto;
+    color: hsl(215, 51%, 70%);
+}
+
+.personName {
+    color: hsl(0, 0%, 100%);
+    margin-left: 6px;
+    transition: 0.5s;
+}
+
+.personName:hover {
+    color: hsla(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.5s;
+}

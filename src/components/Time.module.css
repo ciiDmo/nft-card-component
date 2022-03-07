@@ -1,0 +1,13 @@
+.time {
+    align-items: right;
+    font-size: 15px;
+    font-family: Outfit, sans-serif;  
+    font-weight: 400;
+    display: inline-flex;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 8px;
+}
+
+.time div {
+    margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+.money {
+    font-weight: 600;
+    display: inline-flex;
+    font-size: 15px;
+    font-family: Outfit, sans-serif;  
+    display: inline-flex;
+    color: hsla(178, 100%, 50%);
+    margin-bottom: 8px;
+}
+
+.money div {
+    margin-left: 5px;
+}
