@@ -1,9 +1,16 @@
 .container {
     background-color: hsl(217, 54%, 11%);
-    max-width: 1440px;
-    min-height: 800px;
-    display: flex;
     width: 100vw;
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 410px) {
+    .container {
+        height: 100vh;
+        min-width: 200px;
+    }
 }

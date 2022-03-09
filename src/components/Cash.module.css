@@ -1,13 +1,26 @@
 .money {
+    justify-content: start;
+    min-width: 10rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    display: inline-flex;
-    font-size: 15px;
     font-family: Outfit, sans-serif;  
     display: inline-flex;
     color: hsla(178, 100%, 50%);
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 
 .money div {
-    margin-left: 5px;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 410px) {
+    .money {
+        font-size: 0.9rem;
+        min-width: auto;
+    }
+
+    .money img {
+        display: flex;
+        height: 1.2rem;
+    }
 }

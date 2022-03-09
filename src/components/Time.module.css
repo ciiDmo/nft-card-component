@@ -1,13 +1,26 @@
 .time {
-    align-items: right;
-    font-size: 15px;
+    justify-content: flex-end;
+    min-width: 10rem;
+    font-size: 1.4rem;
     font-family: Outfit, sans-serif;  
     font-weight: 400;
     display: inline-flex;
     color: hsl(215, 51%, 70%);
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 
 .time div {
-    margin-left: 5px;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 410px) {
+    .time {
+        font-size: 0.9rem;
+        min-width: auto;
+    }
+
+    .time img {
+        display: flex;
+        height: 1.1rem;
+    }
 }
